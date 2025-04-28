@@ -1,0 +1,131 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html,body{
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background: rgb(238, 244, 247); 
+  background-image: url("Recursos/triangles-bottom.svg"), url("Recursos/triangles-top.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  padding-top: 140px;
+  color: #44566C;
+}
+
+.main-content{
+ display: flex;
+ max-width: 1400px;
+ margin: auto;
+}
+
+.profile{
+ width: 280px;
+ background-color: white;
+ border-radius: 20px;
+ box-shadow: 0 2.5rem 3.125rem rgba(103, 118, 128, 0.1) !important;
+ text-align: center;
+ padding-top: 1.75rem;
+ position: fixed;
+}
+
+.my-photo{
+ border-radius: 8px;
+ max-height: 11.25rem;
+ max-width: 11.25rem;
+ height: 11.25rem;
+ width: 11.25rem;
+ margin-top: -7rem;
+ margin-bottom: 1.5625rem;
+ margin-left: auto;
+ margin-right: auto;
+ transition: all .3s ease-in-out;
+}
+
+.title{
+ margin-bottom: 0.875rem; 
+ }
+
+.badge-profile{
+  background-color: #F0F0F6;
+  color: #44566C;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  border-radius: 10rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.social{
+ display: flex;
+ margin: 1rem auto 1rem auto;
+ justify-content: space-evenly;
+ max-width: 200px;
+ align-items: center;
+}
+
+.info{
+ background-color: #F5F8F9;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ position: relative;
+ z-index: 0;
+ border-radius: 0 0 20px 20px;
+}
+.contacts-block {
+ list-style: none;
+ padding: 1.875rem;
+ margin-bottom: 0.5rem;
+ overflow: hidden;
+}
+.contacts-block-item{
+ display: flex;
+ align-items: center;
+ margin-bottom: 0.6875rem;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+.contacts-block i{
+margin-right: 0.5rem;
+}
+.contacts-block-item a{
+ color: #44566C;
+ text-decoration: none;
+ display: flex;
+ width: 100%;
+ align-items: center;
+}
+.btn{
+ background-color: darkturquoise;
+ border-radius: 20px;
+ border: 0;
+box-shadow: 0 0.5rem 1rem rgba(48, 76, 253, 0.15), 0 0.125rem 0.25rem rgba(48, 76, 253, 0.15);
+ color: #fff;
+ cursor: pointer;
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: inherit;
+ padding: 0.9375rem 2rem 0.875rem;
+ position: relative;
+ transition: 4s ease-in-out;
+ white-space: nowrap;
+ }
+.btn:hover{
+ background-color: turquoise;
+
+}
+
+
+
+
+ 
